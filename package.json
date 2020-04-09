@@ -1,0 +1,28 @@
+{
+  "name": "Covid19Heatmap",
+  "version": "1.0.0",
+  "description": "A heat map generating geojason for covid19 india",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "build": "webpack"
+  },
+  "keywords": [
+    "Express",
+    "Heatmap",
+    "Covid19"
+  ],
+  "author": "Jinesh soni",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.8",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
